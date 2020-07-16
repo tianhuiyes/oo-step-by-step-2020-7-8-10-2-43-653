@@ -3,6 +3,7 @@ package com.thoughtworks.basic;
 public class Student extends Person{
     private ClassNumber classNumber;
 
+
     public Student(String name, int age, ClassNumber classNumber) {
         super(name,age);
         this.classNumber = classNumber;

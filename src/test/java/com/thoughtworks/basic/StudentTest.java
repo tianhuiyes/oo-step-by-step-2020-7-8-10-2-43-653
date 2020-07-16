@@ -7,7 +7,9 @@ public class StudentTest {
     @Test
     public void should_return_studentIntroduce_given_student_when_introduce() {
         //given
-        ClassNumber classNumber = new ClassNumber(2);
+        Teacher teacher = new Teacher("Marry",30,"Teacher");
+
+        ClassNumber classNumber = new ClassNumber(2, teacher);
         Student student = new Student("lily",24,classNumber);
 
         //when
