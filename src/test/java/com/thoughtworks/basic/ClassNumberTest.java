@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ClassNumberTest {
     @Test
-    public void should_return_allStudentsIntroduce_given_classNumber_2_and_a_teacher_and_some_students_when_calculateNumber() {
+    public void should_return_allStudentsIntroduce_given_classNumber_2_and_a_teacher_and_some_students_when_enterStudent() {
         //given
         Teacher teacher = new Teacher("Marry",30,"Teacher");
 
