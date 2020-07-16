@@ -13,6 +13,6 @@ public class PersonTest {
         String selfIntroduce = person.introduce();
 
         //then
-        Assert.assertNotNull(selfIntroduce);
+        Assert.assertEquals("My name is lily. I am 24 years old.",selfIntroduce);
     }
 }
