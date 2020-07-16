@@ -13,7 +13,6 @@ public class StudentTest {
         String studentIntroduce = student.introduce();
 
         //then
-        Assert.assertNotNull(studentIntroduce);
         Assert.assertEquals("My name is lily. I am 24 years old. I am a Student of Class 1.",studentIntroduce);
     }
 }
